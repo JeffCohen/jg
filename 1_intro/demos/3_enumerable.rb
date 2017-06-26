@@ -7,17 +7,30 @@
 
 # Let's learn about enumerables so we can do things the "Ruby way".
 
-puts "Howdy"
-puts "Howdy"
-puts "Howdy"
-puts "Howdy"
-puts "Howdy"
+# puts "Howdy 1"
+# puts "Howdy 2"
+# puts "Howdy 3"
+# puts "Howdy 4"
+# puts "Howdy 5"
 
 
 # We can use the "times" method:
 
+# 5.times do
+#   puts "Howdy"
+# end
+
 
 # We can use the "upto" method:
 
-
+# 0.upto(5) do |n|
+#   puts "Howdy"
+#   puts n
+# end
 # If we have a collection, we can use the "each" method:
+
+favorites = ["hockey", 21, "cookies"]
+
+favorites.each do |fave|
+  puts fave
+end
